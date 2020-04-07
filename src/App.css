@@ -1,0 +1,132 @@
+/* ---------------------------------------------- /*
+* 01. Reset CSS
+/* ---------------------------------------------- */
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  color: #000000;
+}
+ul,
+ol {
+margin: 0;
+padding: 0;
+}
+
+li {
+list-style: none;
+}
+
+a {
+text-decoration: none;
+display: inline-block;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+a:focus {
+outline: 0;
+}
+button {
+cursor: pointer;
+padding: 0;
+border: 0;
+background: 0;
+}
+
+button:focus,
+.btn:focus {
+outline: 0;
+box-shadow: none;
+}
+span {
+  display: inline-block;
+}
+
+section {
+position: relative;
+}
+input,
+.form-control{
+  /* border: 0; */
+}
+.form-control:focus{
+  border: 0;
+  box-shadow: none;
+  outline: 0;
+}
+
+
+
+
+/* ---------------------------------------------- /*
+* 02. Typography Css
+/* ---------------------------------------------- */
+h1, h2, h3, h4, h5, h6{
+  color: #1F1F1F;
+  font-weight: 500;
+}
+h1{
+  font-size: 42px;
+  line-height: 60px;
+}
+@media (max-width: 767px){
+  h1{
+    line-height: 60px;
+    font-size: 30px;
+  }
+}
+h2{
+  font-size: 35px;
+}
+h3{
+  font-size: 30px;
+}
+h4{
+  font-size: 24px;
+}
+p{
+  font-size: 16px;
+  font-weight: 300;
+  color: #707070;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------------------------------------------- /*
+* 03. Common Css
+/* ---------------------------------------------- */
+.btn{
+    padding: 5px 30px;
+    color: #fff;
+    background-color: #F91944;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.btn:hover{
+  color: #fff;
+}
+.brand__logo img,
+.footer__logo img{
+  height: 60px;
+}
+
+.error-message, 
+.success-message{
+    font-size: 12px;
+}
+.error-message{
+  color: red;
+}
+.success-message{
+  color: green;
+}
+
+@media only screen and (max-width: 1199px) {}

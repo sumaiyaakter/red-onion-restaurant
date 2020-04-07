@@ -1,0 +1,36 @@
+header{
+    padding: 20px 0;
+}
+@media only screen and (max-width: 767px) {
+     .brand__logo img{
+       height: 40px!important;
+    }
+    .header .right {
+        justify-content: center;
+    }
+}
+.brand__logo img{
+    height: 100px;
+}
+.shopping-cart a {
+    color: #000;
+}
+.login a{
+    color: #000;
+}
+.signin a{
+    color: #fff;
+}
+.signin{
+    padding: 5px 30px;
+}
+.login a, .signin a{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.header .btn{
+    min-width: 80px;
+}
+.user{
+    font-size: 15px;
+}

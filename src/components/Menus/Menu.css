@@ -1,0 +1,35 @@
+.menu__item{
+    padding: 100px 0;
+}
+.tab__list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.tab__list li {
+    padding-right: 46px;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .5s;
+}
+.tab__list li:last-child {
+    padding-right: 0;
+}
+.tab__list .active {
+    color: #F91944;
+    position: relative;
+}
+
+.tab__list .active:after {
+    position: absolute;
+    content: "";
+    border-bottom: 1px solid #F91944;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    transition: .3s;
+}
+
+

@@ -1,0 +1,44 @@
+.shipment_form{
+    padding-top: 100px;
+}
+.shipment_form h2 {
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #000;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.shipment_form form{
+}
+.shipment_form form .form-control{
+    display: block;
+    margin-bottom: 15px;
+    padding: 22px 10px;
+    border-radius: 5px;
+    border: 1px solid #495057;
+    width: 100%;
+    border: 1px solid #ced4da;
+    font-size: 12px;
+    background-color: #F5F5F5;
+}
+button.submit {
+    width: 100%;
+    background: #F91944;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: 300;
+}
+::-webkit-input-placeholder { 
+    color: #495057;
+  }
+  ::-moz-placeholder { 
+    color: #495057;
+  }
+  :-ms-input-placeholder {
+    color: #495057;
+  }
+  :-moz-placeholder {
+    color: #495057;
+  }
+
